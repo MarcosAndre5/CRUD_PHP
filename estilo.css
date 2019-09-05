@@ -1,20 +1,15 @@
 h1 { text-align: center; }
-
 body {
 	padding:0px;
 	margin:0px;
 	text-align:center;
 }
-
 table, th, td {
 	text-align: center;
-	border: 1px solid black;	
+	border: 1px solid black;
 }
-
 table { width: 100%; }
-
 p { text-align: center; }
-
 #menu ul {
 	padding:0px;
 	margin:0px;
@@ -24,9 +19,7 @@ p { text-align: center; }
 	list-style:none;
 	font:100% Tahoma;
 }
-
 #menu ul li { display: inline; }
-
 #menu ul li a {
 	background-color:#EDEDED;
 	color: #333;
@@ -35,16 +28,14 @@ p { text-align: center; }
 	padding: 2px 10px;
 	float:left;
 }
-
 #menu ul li a:hover {
 	background-color:#D6D6D6;
 	color: #6D6D6D;
 	border-bottom:3px solid #EA0000;
 }
-
 #tudo {
 	width: 760px;
-	margin:0 auto;			
+	margin:0 auto;
 	padding: 10px;
 	text-align:left;
 }

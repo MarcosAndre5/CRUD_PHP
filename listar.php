@@ -31,8 +31,10 @@
 
 					// LISTAGEM
 					$comandoSelect = "SELECT * FROM usuario;";
+
 					$select = sqlsrv_query($conectar, $comandoSelect);
-					$i = 0;
+
+					$linhas = 0;
 					while($fila = sqlsrv_fetch_array($select)){
 						$id = $fila['id'];
 						$nome = $fila['nome'];
@@ -40,7 +42,7 @@
 						$cidade = $fila['cidade'];
 						$uf = $fila['uf'];
 						$email = $fila['email'];
-						$i++;
+						$linhas++;
 						echo "<tr>
 							<td>$nome</td>
 							<td>$idade</td>
